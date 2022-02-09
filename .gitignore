@@ -1,5 +1,5 @@
 .ipynb_checkpoints
-*/.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 project1-turnstile/BoroughBoundaries
 project1-turnstile/data
 project1-turnstile/Benson_Challenge.ipynb
