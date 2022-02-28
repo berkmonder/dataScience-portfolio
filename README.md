@@ -33,25 +33,13 @@ More information about me: [LinkedIn](https://www.linkedin.com/in/berkmonder/)
 
 <p>
 
-## <p>**Projects**
+## <p>**[Projects](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects)**
 
-* **Data Analysis**
-  * [Data Cleaning_Airbnb_Listing](https://github.com/JiayuanGuo/Data-Science-Portfolio/tree/master/Miniprojects/1.Data_Cleaning_AIrbnb_Listing): Use Python to clean Airbnb Listing Data (from csv file)
-  * [Sberbank Data Analytics with Pandas](https://github.com/JiayuanGuo/Data-Science-Portfolio/tree/master/Miniprojects/4.Sberbank_Data_Processing): Go through data loading and data frame creation, selection and query, grouping and function applying, plotting and writing data to file by **Pandas and Numpy**
+* **Analysis**
+  * [Exploratory Data Analysis on MTA Turnstile Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/TurnstileDataExploration): Used **Pandas, Matplotlib/Seaborn** to clean, transform and visualize data to extract insights.
 
-* **Web Crawling**
+* **Regression**
+  * [IMDb Movies Gross Prediction](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/IMDbGrossPrediction-Regression): Used **BeautifulSoup** to collect and clean job listing data from IMDb.com
 
-  * [Web Crawling with BeautifulSoup](https://github.com/JiayuanGuo/Data-Science-Portfolio/tree/master/Miniprojects/2.Web_Crawling_Indeed_Jobs): Use **Python BeautifulSoup** to collect and clean job listing data from indeed.com
-
-  * [Web Crawling with Scrapy](https://github.com/JiayuanGuo/TrendKeeper): Use **Scrapy Framework** to collect news from Newswire, and generate trending report for a certain time period.
-
-* **Machine Learning**
-
-  * [Genome-wide Prediction of Chromatin Accessibility based on gene expression](https://github.com/JiayuanGuo/Machine-Learning-Methods-biost/tree/master/ClassProject): Clean and preprocess Dnase-seq and RNA-seq data with **high dimensional** features (p > 20,000); Implemented and compared **Regulated Logistic Regression**, **Random Forest** and **SVM**, increasing prediction accuracy by **13%**
-  * [Unsupervised Machine Learning Techniques on *Omics Data](https://github.com/BeckResearchLab/DashOmics): Applied **K-means clustering** and **PCA analysis** on RNA-seq data using **Scikit-Learn**, evaluated model by **Elbow Method** and **Silhouetee Analysis**
-
-* **Data Visualization**
-
-  * [A Visualization Tool for Unsupervised Machine Learning Analysis on Genomics Data](https://github.com/BeckResearchLab/DashOmics): Built an interactive web application and visualized analysis results  [**Plot.ly - Dash**](https://plot.ly/products/dash/).
-  * Airbnb Visualization Analysis by Tableau
-
+* **Classification**
+  * [Rain Prediction](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/WeatherRainPrediction-Classification): Predictied next-day rain using Australia's Weather data. Imported data to a database, connected with **SQLAlchemy** and deployed using **Flask**. 
