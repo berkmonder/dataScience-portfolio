@@ -1,4 +1,4 @@
-## <p>**Projects**
+### **Projects**
 
 * **Analysis**
   * [Exploratory Data Analysis on MTA Turnstile Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/TurnstileDataExploration): Used **Pandas, Matplotlib/Seaborn** to clean, transform and visualize data to extract insights.

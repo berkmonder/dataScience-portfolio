@@ -1,6 +1,6 @@
 ![https://thelead.io/data-science/5-steps-to-a-data-science-project-lifecycle](img/OSEMN.jpeg)
 
-<p>------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### **OSEMN Framework**, *Data Science Process*
 

@@ -1,7 +1,7 @@
 # My Data Science Portfolio
 Portfolio including my Notes and Data Science projects for work, academic, self-learning, and hobby purposes.
 
-<p>------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### **[OSEMN Framework](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN)**, *Data Science Process*
 
@@ -17,9 +17,9 @@ Portfolio including my Notes and Data Science projects for work, academic, self-
 
 **Keywords:** **Python** *(numpy, pandas, matplotlib, seaborn, scikit-learn, beautifulsoup, sqlalchemy)* / **SQL**
 
-<p>
+---
 
-## <p>**[Projects](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects)**
+### **[Projects](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects)**
 
 * **Analysis**
   * [Exploratory Data Analysis on MTA Turnstile Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/TurnstileDataExploration): Used **Pandas, Matplotlib/Seaborn** to clean, transform and visualize data to extract insights.
