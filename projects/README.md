@@ -1,7 +1,7 @@
 ### **Projects**
 
 * **Analysis**
-  * [Exploratory Data Analysis on MTA Turnstile Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/IMDbGrossPrediction-Regression): Used **Pandas, Matplotlib/Seaborn** to clean, transform and visualize data to extract insights.
+  * [Exploratory Data Analysis on MTA Turnstile Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/TurnstileDataAnalysis-Exploration): Used **Pandas, Matplotlib/Seaborn** to clean, transform and visualize data to extract insights.
 
 * **Regression**
   * [IMDb Movies Gross Prediction](https://github.com/berkmonder/dataScience-portfolio/tree/main/projects/IMDbGrossPrediction-Regression): Used **BeautifulSoup** to collect and clean job listing data from IMDb.com
