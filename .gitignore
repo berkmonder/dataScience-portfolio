@@ -1,5 +1,9 @@
+# .ipynb_checkpoints
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
+
+# Data
+data
+
 projects/TurnstileDataExploration/BoroughBoundaries
 projects/TurnstileDataExploration/data
 projects/TurnstileDataExploration/Benson_Challenge.ipynb
