@@ -144,15 +144,84 @@ df['w'].nunique() # Number of distinct values in a column.
 
 df.describe() # Basic descriptive and statistics for each column (or GroupBy).
 
-df.sum() # Sum values of each object
-df.count() # Count non-NA/null values of each object
-df.median() # Median value of each object
-df.quantile([0.25, 0.75]) # Quantiles of each object
-df.apply(function) # Apply function to each object.
-df.min() # Minimum value in each object.
-df.max() # Maximum value in each object.
-df.mean() # Mean value of each object.
-df.var() # Variance of each object.
-df.std() # Standard deviation of each object.
+sum() # Sum values of each object
+count() # Count non-NA/null values of each object
+median() # Median value of each object
+quantile([0.25, 0.75]) # Quantiles of each object
+apply(function) # Apply function to each object.
+min() # Minimum value in each object.
+max() # Maximum value in each object.
+mean() # Mean value of each object.
+var() # Variance of each object.
+std() # Standard deviation of each object.
 
-print(df)
+# --------------------
+
+# Make New Columns
+
+df.assign(Area=lambda df: df.Length*df.Height) # Compute and append one or more new columns.
+
+df['Volume'] = df.Length*df.Height*df.Depth # Add single column.
+
+pd.qcut(df.col, n, labels=False) # Bin column into n buckets.
+
+# --------------------
+
+df.max()
+
+max(axis=1) # Element-wise max.
+min(axis=1) # Element-wise min.
+clip(lower=-10, upper=10) # Trim values at input tresholds
+abs() # Absolute value.
+
+# --------------------
+
+# Combine Data Sets
+
+pd.merge(adf, bdf, how='left', on='x1') # Join matching rows from bdf to adf.
+
+pd.merge(adf, bdf, how='right', on='x1') # Join matching rows from adf to bdf.
+
+pd.merge(adf, bdf, how='inner', on='x1') # Join data. Retain only rows in both sets.
+
+pd.merge(adf, bdf, how='outer', on='x1') # Join data. Retain all values, all rows.
+
+# --------------------
+
+adf[adf.x1.isin(bdf.x1)] # All rows in adf that have a match in bdf.
+
+adf[~adf.x1.isin(bdf.x1)] # All rows in adf that do not have a match in bdf.
+
+# --------------------
+
+pd.merge(ydf, zdf) # Rows that appear in both ydf and zdf (Intersection).
+
+pd.merge(ydf, zdf, how='outer') # Rows that appear in either or both ydf and zdf (Union).
+
+pd.merge(ydf, zdf, how='outer', indicator=True).query('_merge == "left_only"').drop(columns=['_merge']) # Rows that appear in ydf but not zdf (Setdiff).
+
+# --------------------
+
+# Group Data
+
+df.groupby(by='col') # Return a GroupBy object, grouped by values i column named "col".
+
+df.groupby(level='ind') # Return a GroupBy object, grouped by values in index level named 'ind'.
+
+# --------------------
+
+df.groupby().size()
+
+size() # Size of each group.
+agg(function) # Aggregate group using function.
+
+shift(1) # Copy with values shifted by 1.
+shift(-1) # Copy with values lagged by 1.
+rank(method='dense') # Ranks with no gaps.
+rank(method='min') # Ranks. Ties get min rank.
+rank(method='first') # Ranks. Ties go to first value.
+rank(pct=True) # Ranks rescaled to interval [0, 1].
+cumsum() # Cumulative sum.
+cummax() # Cumulative max.
+cummin() # Cumulative min.
+cumprod() # Cumulative product.
