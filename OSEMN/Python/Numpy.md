@@ -1,4 +1,6 @@
+```python
 import numpy as np
+```
 
 # Creatin Arrays
 ```python
