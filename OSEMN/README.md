@@ -2,16 +2,13 @@
 
 ---
 
-### **OSEMN Framework**, *Data Science Process*
+## [OSEMN Framework](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN), *Data Science Process*
 
-* **[Obtaining Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/1-Obtain/)**: <u>*work in progress...*</u>
+- **[Obtaining Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/1-Obtain/):**
+	- **Python** (`Request`, `BeautifulSoup`, `Selenium`, `MongoDB`)
+- **[Scrubbing Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/2-Scrub/)**: *work in progress...*
+- **[Exploring Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/3-Explore/)**: *work in progress...*
+- **[Modelling Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/4-Model/)**: *work in progress...*
+- **[iNterpreting Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/5-iNterpret/)**: *work in progress...*
 
-* **[Scrubbing Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/2-Scrub/)**: <u>*work in progress...*</u>
-
-* **[Exploring Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/3-Explore/)**: <u>*work in progress...*</u>
-
-* **[Modelling Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/4-Model/)**: <u>*work in progress...*</u>
-
-* **[iNterpreting Data](https://github.com/berkmonder/dataScience-portfolio/tree/main/OSEMN/5-iNterpret/)**: <u>*work in progress...*</u>
-
-**Keywords:** **Python** *(numpy, pandas, matplotlib, seaborn, scikit-learn, beautifulsoup, sqlalchemy)* / **SQL**
+**Keywords:** **`Python`**
