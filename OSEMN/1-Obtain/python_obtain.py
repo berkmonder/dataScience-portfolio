@@ -16,6 +16,23 @@ def getAndParseURL(url):
     soup = BeautifulSoup(req.content, 'html.parser')
     return soup # add .prettify() at the end if you only want to view it
 
+
+import pymongo
+
+def connectToMongoDB(mongo_username, mongo_password):
+    client = pymongo.MongoClient(f"mongodb+srv://{mongo_username}:{mongo_password}@cluster0.d4ojg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+
+    print(client.list_database_names())
+    input_db = input("Database Name: ")
+    db = getattr(client, input_db)
+
+    print(db.list_collection_names())
+    input_collection = input("Collection Name: ")
+    collection = getattr(db, input_collection)
+
+    return collection
+
 if __name__ == '__main__':
     url = "https://example.com"
     print(getAndParseURL(url))
+    # collection = connectToMongoDB(mongo_username, mongo_password)
