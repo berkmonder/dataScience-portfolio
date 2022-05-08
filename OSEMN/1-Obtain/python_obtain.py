@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 
 def getAndParseURL(url):
+    """
+    Requests url and turns is into a soup object.
+    """
     headers = {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET',
