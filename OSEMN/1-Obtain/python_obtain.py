@@ -11,7 +11,7 @@ def getAndParseURL(url):
             }
     req = requests.get(url, headers)
     soup = BeautifulSoup(req.content, 'html.parser')
-    return soup.prettify()
+    return soup # add .prettify() at the end if you only want to view it
 
 if __name__ == '__main__':
     url = "https://example.com"
