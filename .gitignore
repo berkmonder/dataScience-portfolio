@@ -1,10 +1,1 @@
-# .ipynb_checkpoints
-.ipynb_checkpoints
-
-# Data
-data
-
-# Others
-projects/TurnstileDataExploration/BoroughBoundaries
-projects/WeatherRainPrediction-Classification/env
-projects/WeatherRainPrediction-Classification/test
+env
