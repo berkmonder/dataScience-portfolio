@@ -13,7 +13,6 @@ def getAndParseURL(url):
     soup = BeautifulSoup(req.content, 'html.parser')
     return soup.prettify()
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     url = "https://example.com"
-    
     print(getAndParseURL(url))
